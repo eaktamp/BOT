@@ -60,6 +60,4 @@ function send_notify_message($line_api, $access_token, $message_data)
  return $return_array;
 }
 
-?><?php
-echo "Hello LINE bot World eaktamp!";
 ?>
