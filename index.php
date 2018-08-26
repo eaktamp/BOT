@@ -22,15 +22,15 @@ $access_token = 'ca5FRUmSByYJ9TC4mzGcFX8Sygrx9tdUyEAy7UqdKd1';
 $str = 'สวัสดี เช้าวันที่ '.$show.' ร่ำรวยเงินทอง สุขภาพแข็งแรง';
 $image_thumbnail_url = '';  // ขนาดสูงสุด 240×240px JPEG
 $image_fullsize_url = '';  // ขนาดสูงสุด 1024×1024px JPEG
-$sticker_package_id = 1;  // Package ID ของสติกเกอร์
-$sticker_id = 410;    // ID ของสติกเกอร์
+//$sticker_package_id = 1;  // Package ID ของสติกเกอร์
+//$sticker_id = 410;    // ID ของสติกเกอร์
 
 $message_data = array(
  'message' => $str,
  'imageThumbnail' => $image_thumbnail_url,
  'imageFullsize' => $image_fullsize_url,
- 'stickerPackageId' => $sticker_package_id,
- 'stickerId' => $sticker_id
+ //'stickerPackageId' => $sticker_package_id,
+ //'stickerId' => $sticker_id
 );
 
 $result = send_notify_message($line_api, $access_token, $message_data);
